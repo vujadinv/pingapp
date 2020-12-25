@@ -51,6 +51,13 @@ usage: com.company.pingapp.PingApp
                                     3000 bytes.
 ```
 
+## TODO
+
+* While working with sockets, both client and server side, System.gc() was explicitly used in respective cleanup methods to control memory consumption.
+* Support for configuration via app properties
+* Message sizes are not enforced on the server side
+* More detailed statistics
+
 ## Built With
 
 * [commons-cli](https://mvnrepository.com/artifact/commons-cli/commons-cli) - Apache API for command line interface.
