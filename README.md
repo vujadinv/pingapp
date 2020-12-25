@@ -54,9 +54,10 @@ usage: com.company.pingapp.PingApp
 ## TODO
 
 * While working with sockets, both client and server side, System.gc() was explicitly used in respective cleanup methods to control memory consumption.
-* Support for configuration via app properties
-* Message sizes are not enforced on the server side
-* More detailed statistics
+* Support for configuration via app properties.
+* Message sizes are not enforced on the server side.
+* More detailed statistics.
+* Increase test coverage.
 
 ## Built With
 
