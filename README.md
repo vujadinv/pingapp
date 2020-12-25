@@ -8,7 +8,7 @@ Catcher/server's responsibility is to accept messages sent by the pitcher, and e
 
 ## Getting Started
 
-Please download PingApp and unzip it locally.
+Please download [PingApp](https://github.com/vujadinv/pingapp/blob/main/PingApp.zip) and unzip it locally on your machine.
 
 After unzipping the file, folder structure should be like this:
 ```
