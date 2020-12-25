@@ -1,6 +1,10 @@
 # PingApp client/server
 
-Console application that launches client or server based on provided parameters.
+Console application that launches client or server based on provided parameters. 
+
+Pitcher/client will produce messages at specified rate and size sending them to the catcher. Statistics are calculated and constantly displayed in the console.
+
+Catcher/server's responsibility is to accept messages sent by the pitcher, and echo them back to the client. Closing connection immediately after. 
 
 ## Getting Started
 
@@ -49,12 +53,12 @@ usage: com.company.pingapp.PingApp
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [commons-cli](https://mvnrepository.com/artifact/commons-cli/commons-cli) - Apache API for command line interface.
+* [commons-lang3](https://mvnrepository.com/artifact/org.apache.commons/commons-lang3) - Apache Commons Lang
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 
 ## Authors
 
-* **Vujadin Vidovic** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Vujadin Vidovic** - *Initial work* - [PingApp](https://github.com/vujadinv/pingapp)
 
